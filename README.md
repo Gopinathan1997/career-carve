@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+CareerCarve Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a full-stack application that includes both frontend and backend components. The frontend is built with React, while the backend is powered by [Express.js/Node.js/].
+Project Structure
 
-## Available Scripts
+bash
 
-In the project directory, you can run:
+.
+├── frontend/        # Frontend application
+├── backend/         # Backend server
+└── README.md        # This README file
 
-### `npm start`
+Getting Started
+Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you start, make sure you have the following installed on your machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Node.js (version x.x.x or higher)
+    npm (version x.x.x or higher)
 
-### `npm test`
+Frontend Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Navigate to the Frontend Directory:
 
-### `npm run build`
+    bash
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd ./frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install Dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start the Frontend Application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This command will start the frontend development server. Open your browser and go to http://localhost:3000 to see the application running.
 
-## Learn More
+Backend Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Navigate to the Backend Directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    bash
 
-### Code Splitting
+cd ./backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install Dependencies:
 
-### Analyzing the Bundle Size
+bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm install
 
-### Making a Progressive Web App
+Start the Backend Server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
 
-### Advanced Configuration
+    node index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    This command will start the backend server. The server will run on http://localhost:5000 by default.
 
-### Deployment
+Additional Information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    The frontend and backend are currently set up to run on different ports.
+    This project is not yet published, so any deployment or hosting steps are not included in this document.
 
-### `npm run build` fails to minify
+Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Implement user authentication and authorization.
+Connect the frontend to the backend API.
+
+    Add deployment scripts for cloud hosting.
+
+Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
+License
+
+This project is currently under development and not yet licensed.
