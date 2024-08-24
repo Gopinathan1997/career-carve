@@ -1,0 +1,41 @@
+.bg-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.form-container {
+  display: flex;
+  background-color: aliceblue;
+  flex-direction: column;
+  
+  height: 50vh;
+  width: 30vw;
+}
+.login-img {
+  width: 50vw;
+}
+label {
+  align-self: flex-start;
+}
+.logo {
+  width: 25vw;
+}
+input {
+  font-size: large;
+  align-self: stretch;
+}
+.login-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+.form-select{
+  display: inline-block;
+  width: 160px;
+  height: 34px;
+  line-height: 30px;
+  position: relative;
+}
